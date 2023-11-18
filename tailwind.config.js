@@ -7,8 +7,8 @@ export default {
   theme: {
     extend: {},
     fontFamily:{
-      Josefin: ['Josefin Sans', 'sans-serif'],
-      Jakarta: ['Plus Jakarta Sans', 'sans-serif'],
+      Urbanist: ['Urbanist', 'sans-serif'],
+      Inter: ['Inter', 'sans-serif'],
       Fasthand: ['Fasthand', "cursive"]
     }
   },

@@ -1,18 +1,25 @@
 .aboutIcon1{
     left: 50px;
+    top: -50px;
     animation: aboutIcon 2s linear infinite alternate;
 }
 .aboutImage1{
-    height: 30rem;
-    width: 25rem;
     transform: rotate(20deg);
     left: 200px;
 }
 .aboutImage2{
-    height: full;
-    width: full;
     transform: rotate(-15deg);
-    top: 150px;
+    top: 120px;
+}
+
+
+.about-right1:hover .about-right-icon1{
+    transition: all .6s;
+    transform: rotate(360deg);
+}
+.about-right2:hover .about-right-icon2{
+    transition: all .6s;
+    transform: rotate(360deg);
 }
 
 @keyframes aboutIcon {
@@ -22,5 +29,26 @@
     
     100% {
         transform: rotate(0deg);
+    }
+}
+
+
+
+/* Media Query */
+@media only screen and (max-width: 600px){
+    .aboutIcon1{
+        left: 0px;
+        top: 680px;
+        animation: aboutIcon 2s linear infinite alternate;
+    }
+    .aboutImage1{
+        transform: rotate(20deg);
+        left: 80px;
+        top: 850px;
+    }
+    .aboutImage2{
+        transform: rotate(-15deg);
+        left: -80px;
+        top: 850px;
     }
 }

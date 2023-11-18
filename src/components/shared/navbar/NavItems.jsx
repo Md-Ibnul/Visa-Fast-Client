@@ -54,8 +54,8 @@ const NavItems = () => {
         </a>
         </div>
         <div>
-            <a href='tel:+880173-7564-236'><h3 className='font-Josefin font-bold text-gray-600'>Call Us</h3>
-            <p className='font-Josefin font-bold text-lg text-gray-500'>+8801737 564 236</p></a>
+            <a href='tel:+880173-7564-236'><h3 className='font-Urbanist font-bold text-gray-600'>Call Us</h3>
+            <p className='font-Urbanist font-bold text-lg text-gray-500'>+8801737 564 236</p></a>
         </div>
     </div>
     <div className="dropdown">

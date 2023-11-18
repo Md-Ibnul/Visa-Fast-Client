@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 /* Custom Font */
-/* Josefin Sans */
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&display=swap');
+/* Urbanist */
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;600;700;800;900&display=swap');
 
-/* Plus Jakarta Sans */
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&display=swap');
+/* Plus Inter Sans */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
 /* Fasthand */
 @import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
