@@ -1,0 +1,45 @@
+.planeSlider {
+    position: relative;
+    height: 120px;
+}
+
+.planeSlider .cloud1{
+    position: absolute;
+    bottom: 20px;
+    left: 700px;
+    opacity: 0.6;
+}
+
+.planeSlider .cloud2{
+    position: absolute;
+    bottom: 40px;
+    left: 180px;
+    opacity: 0.6;
+}
+.planeSlider .cloud3{
+    position: absolute;
+    bottom: 0px;
+    right: 220px;
+    opacity: 0.6;
+}
+
+.planeSlider .plane{
+    height: 90px;
+    width: 90px;
+    opacity: 0.5;
+    position: absolute;
+    top: 50px;
+    right: -500px;
+    animation: plane 20s linear 0s infinite reverse;
+    z-index: 9;
+}
+
+@keyframes plane {
+    0% {
+        right: -500px;
+    }
+    
+    100% {
+        right: 102%;
+    }
+}

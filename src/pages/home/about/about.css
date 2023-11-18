@@ -1,0 +1,26 @@
+.aboutIcon1{
+    left: 50px;
+    animation: aboutIcon 2s linear infinite alternate;
+}
+.aboutImage1{
+    height: 30rem;
+    width: 25rem;
+    transform: rotate(20deg);
+    left: 200px;
+}
+.aboutImage2{
+    height: full;
+    width: full;
+    transform: rotate(-15deg);
+    top: 150px;
+}
+
+@keyframes aboutIcon {
+    0% {
+        transform: rotate(-30deg);
+    }
+    
+    100% {
+        transform: rotate(0deg);
+    }
+}

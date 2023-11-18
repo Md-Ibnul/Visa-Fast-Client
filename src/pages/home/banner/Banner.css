@@ -1,0 +1,16 @@
+.banner-image1{
+    animation: jumping 10s linear infinite alternate;
+    margin-bottom: -50px;
+}
+
+@keyframes jumping {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-60px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}

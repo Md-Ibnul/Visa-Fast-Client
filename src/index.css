@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Font */
+/* Josefin Sans */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&display=swap');
+
+/* Plus Jakarta Sans */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&display=swap');
+
+/* Fasthand */
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+
+.active{
+    @apply font-medium tracking-wide text-orange-600 transition-colors duration-200 hover:text-orange-600 before:block before:absolute before:inset-6 relative  before:w-5 before:h-1 before:bottom-0 before:left-0 before:bg-orange-600 inline-block}
+  
+.default{
+    @apply font-normal tracking-wide text-gray-800 transition duration-200 hover:text-orange-600 hover:before:block before:absolute before:inset-6 relative  before:w-0 before:h-1 before:bottom-0 before:left-0 before:bg-orange-600 inline-block hover:before:w-5 hover:transition hover:before:duration-300
+  }
