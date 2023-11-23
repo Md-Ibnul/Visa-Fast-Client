@@ -7,7 +7,7 @@ import topShape from '../../../assets/images/bottom-shape.png'
 const Counter = () => {
   const [counterOn, setCounterOn] = useState(false);
   return (
-    <div className="counter">
+    <div className="">
         <img src={topShape} alt="" />
       <div className="py-10 bg-orange-600">
         <Container>
@@ -15,8 +15,8 @@ const Counter = () => {
             onEnter={() => setCounterOn(true)}
             onExit={() => setCounterOn(false)}
           >
-            <div className="flex mt-12 mb-8 gap-8 items-center justify-around">
-              <div className="flex text-white items-start justify-start border-e-2 pe-4">
+            <div className="flex flex-col md:flex-row mt-12 mb-8 gap-8 items-center justify-around">
+              <div className="flex text-white items-start justify-start border-0 md:border-e-2 pe-4">
                 <div className="font-bold text-5xl font-Urbanist">
                   {counterOn && (
                     <CountUp start={0} end={1245} duration={6} delay={0} />
@@ -28,7 +28,7 @@ const Counter = () => {
                   </h4>
                 </div>
               </div>
-              <div className="flex text-white items-start justify-start border-e-2 pe-4">
+              <div className="flex text-white items-start justify-start border-0 md:border-e-2 pe-4">
                 <div className="font-bold text-5xl font-Urbanist">
                   {counterOn && (
                     <CountUp start={0} end={10} duration={6} delay={0} />
@@ -40,7 +40,7 @@ const Counter = () => {
                   </h4>
                 </div>
               </div>
-              <div className="flex text-white items-start justify-start border-e-2 pe-4">
+              <div className="flex text-white items-start justify-start border-0 md:border-e-2 pe-4">
                 <div className="font-bold text-5xl font-Urbanist">
                   {counterOn && (
                     <CountUp start={0} end={2000} duration={6} delay={0} />
@@ -50,7 +50,7 @@ const Counter = () => {
                   <h4 className="font-Urbanist font-bold text-xl">+ Clients</h4>
                 </div>
               </div>
-              <div className="flex text-white items-start justify-start border-e-2 pe-4">
+              <div className="flex text-white items-start justify-start border-0 md:border-e-2 pe-4">
                 <div className="font-bold text-5xl font-Urbanist">
                   {counterOn && (
                     <CountUp start={0} end={500} duration={6} delay={0} />
