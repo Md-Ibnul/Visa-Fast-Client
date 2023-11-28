@@ -26,7 +26,7 @@ const Banner = () => {
                             <h2 className='text-5xl font-Urbanist font-black leading-snug uppercase'>Let's travel the world with us</h2>
                             <img src={bottomBar} alt="" className='absolute -bottom-4 lg:left-10 w-fit' />
                         </div>
-                        <div className='mt-8 w-10/12 ms-14 text-justify'>
+                        <div className='mt-8 w-10/12 lg:ms-14 text-justify'>
                             <p className='font-Inter text-lg font-semibold text-gray-600'><span className='text-orange-600 font-bold'>Visa Fast</span> is a leading travel agency dedicated to providing exceptional travel experiences to our clients. With a passion for exploration and a commitment to customer satisfaction, we specialize in crafting personalized and unforgettable journeys.</p>
                             <div className='text-center mt-10'>
                             <button className='btn bg-orange-600 text-white hover:bg-transparent hover:border-orange-600 hover:text-gray-700 text-center'>

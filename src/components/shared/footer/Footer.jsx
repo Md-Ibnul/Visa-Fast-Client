@@ -151,7 +151,7 @@ const Footer = () => {
                         class="text-white transition hover:text-white/75"
                         href="/"
                       >
-                        Web Development
+                        Visa Immigration 
                       </a>
                     </li>
 
@@ -160,7 +160,7 @@ const Footer = () => {
                         class="text-white transition hover:text-white/75"
                         href="/"
                       >
-                        Web Design
+                        Popular Destination
                       </a>
                     </li>
 
@@ -169,7 +169,7 @@ const Footer = () => {
                         class="text-white transition hover:text-white/75"
                         href="/"
                       >
-                        Marketing
+                        Visa Types
                       </a>
                     </li>
 
@@ -178,7 +178,7 @@ const Footer = () => {
                         class="text-white transition hover:text-white/75"
                         href="/"
                       >
-                        Google Ads
+                        Visa Consultant
                       </a>
                     </li>
                   </ul>
@@ -336,7 +336,7 @@ const Footer = () => {
               </p>
 
               <p class="mt-4 text-sm text-gray-500 sm:order-first sm:mt-0">
-                &copy; 2023 Visa Fast
+                &copy; 2024 Visa Fast
               </p>
             </div>
           </div>

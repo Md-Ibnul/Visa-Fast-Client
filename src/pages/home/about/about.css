@@ -15,11 +15,11 @@
 
 .about-right1:hover .about-right-icon1{
     transition: all .6s;
-    transform: rotate(360deg);
+    transform: scale(-1)  rotate(180deg);
 }
 .about-right2:hover .about-right-icon2{
     transition: all .6s;
-    transform: rotate(360deg);
+    transform: scale(-1)  rotate(180deg);
 }
 
 @keyframes aboutIcon {
