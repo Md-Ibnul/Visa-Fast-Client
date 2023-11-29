@@ -26,8 +26,8 @@ const Destination = () => {
   return (
     <div>
       <div className="destination-bg">
-        <div className="z-10 w-full mx-auto">
-          <h4 className="text-white font-Urbanist font-extrabold text-7xl">
+        <div className="z-10 w-full mx-auto text-center">
+          <h4 className="text-white font-Urbanist font-extrabold w-full">
             DESTINATION
           </h4>
         </div>

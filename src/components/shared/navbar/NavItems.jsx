@@ -32,9 +32,9 @@ const NavItems = () => {
     return (
         <div className="navbar p-0 bg-base-100">
   <div className="navbar-start">
-    <a className="mb-0">
+    <Link to='/' className="mb-0">
         <img src={logo} alt="Logo" width={150} height={100} />
-    </a>
+    </Link>
   </div>
   <div className="navbar-center hidden lg:flex gap-10">
     <ul className="menu-horizontal px-1 gap-8">

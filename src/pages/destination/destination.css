@@ -43,6 +43,7 @@
     top: 50%;
     transform: translate(-50%, -50%);
     letter-spacing: 1.25rem;
+    font-size: 5rem;
 }
 .country-info{
     position: relative;
@@ -63,11 +64,21 @@
     width: 25rem;
     height: 25rem;
     margin: 0 auto;
+    transition: all .4s;
+    overflow: hidden;
 }
+.country-image img {
+    overflow: hidden;
+    transition: all .4s;
+}
+.country-image:hover img{
+    transform: scale(1.2);
+}
+
 @media only screen and (max-width: 600px) {
     .destination-bg h4{
         letter-spacing: 0.5rem;
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
     .country-info{
         margin-bottom: 350px;
@@ -76,6 +87,7 @@
         width: 25rem;
         height: 6rem;
         margin: 0 auto;
+        overflow: visible;
     }
     .country-info img{
         height: 20rem;

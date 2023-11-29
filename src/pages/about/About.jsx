@@ -7,13 +7,16 @@ import options from "../../assets/images/directions.png";
 import expert from "../../assets/images/Experties.png";
 import noFee from "../../assets/images/no-fee2.png";
 import ticket from "../../assets/images/tickets.jpg";
+import Choose from "../home/choose/Choose";
+import Counter from "../home/counter/Counter";
+import Partners from "../home/partners/Partners";
 
 const About = () => {
   return (
     <div>
       <div className="about-bg">
-        <div className="z-10 w-full mx-auto">
-          <h4 className="text-white font-Urbanist font-extrabold text-7xl">
+        <div className="z-10 w-full mx-auto text-center">
+          <h4 className="text-white w-full font-Urbanist font-extrabold text-2xl">
             ABOUT US
           </h4>
         </div>
@@ -110,6 +113,9 @@ const About = () => {
           </div>
         </div>
       </Container>
+      <Choose />
+      <Counter />
+      <Partners />
     </div>
   );
 };

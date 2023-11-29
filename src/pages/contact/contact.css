@@ -1,19 +1,19 @@
-.about-bg{
-    background-image: url(../../assets/images/AboutUs.jpg);
+.contact-bg{
+    background-image: url(../../assets/images/ContactImage.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     position: relative;
     height: 40rem;
 }
-.about-bg::before{
+.contact-bg::before{
     position: absolute;
     content: '';
     width: 100%;
     height: 100%;
     background: #101010b0;
 }
-.about-bg::after{
+.contact-bg::after{
     content: '';
     position: absolute;
     left: 0;
@@ -36,7 +36,7 @@
     }
 }
 
-.about-bg h4{
+.contact-bg h4{
     position: absolute;
     z-index: 2;
     left: 50%;
@@ -45,23 +45,36 @@
     letter-spacing: 1.25rem;
     font-size: 5rem;
 }
-.aboutImage1{
-    transform: rotate(20deg);
-    left: 200px;
+.contact-icon{
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border: 3px solid rgba(228, 126, 0, 0.984);
+    border-radius: 50%;
+    position: relative;
+    transition: all .4s;
 }
-.aboutImage2{
-    transform: rotate(-15deg);
-    top: 120px;
+.contact-info:hover .contact-icon{
+    border: none;
+    background: rgba(228, 126, 0, 0.984);
 }
-
-
-
-
+.contact-icon .icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5rem;
+    color: #101010;
+    transition: all .2s;
+}
+.contact-info:hover .contact-icon .icon{
+    color: white;
+}
 
 @media only screen and (max-width: 600px) {
-    .about-bg h4{
+    .contact-bg h4{
         letter-spacing: 0.5rem;
-        font-size: 3.5rem;
+        font-size: 3rem;
     }
 
 }
