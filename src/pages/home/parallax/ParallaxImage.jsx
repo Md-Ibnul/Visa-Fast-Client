@@ -34,8 +34,8 @@ const ParallaxImage = () => {
         strength={-100}
       >
         <div className="">
-          <div class="video-box">
-              <div class="play-btn">
+          <div className="video-box">
+              <div className="play-btn">
                 <div className="absolute z-20">
                 <button htmlFor="my_modal_7"><label htmlFor="my_modal_7"><FaPlay className="mt-7 ml-7 cursor-pointer" /></label></button>
                 </div>

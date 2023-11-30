@@ -30,7 +30,7 @@ const Banner = () => {
                             <p className='font-Inter text-lg font-semibold text-gray-600'><span className='text-orange-600 font-bold'>Visa Fast</span> is a leading travel agency dedicated to providing exceptional travel experiences to our clients. With a passion for exploration and a commitment to customer satisfaction, we specialize in crafting personalized and unforgettable journeys.</p>
                             <div className='text-center mt-10'>
                             <button className='btn bg-orange-600 text-white hover:bg-transparent hover:border-orange-600 hover:text-gray-700 text-center'>
-                            <Link>See The Destinations</Link>
+                            <Link to="/destination">See The Destinations</Link>
                             </button>
                             </div>
                         </div>

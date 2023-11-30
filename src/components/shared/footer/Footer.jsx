@@ -10,27 +10,27 @@ const Footer = () => {
   return (
     <div className="footer-main">
         <div className="footer-bg"></div>
-      <footer class="">
-        <div class="relative z-30 max-w-screen-xl px-4 pt-20 pb-6 mx-auto sm:px-6 lg:px-8 lg:pt-24">
-          <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
+      <footer className="">
+        <div className="relative z-30 max-w-screen-xl px-4 pt-20 pb-6 mx-auto sm:px-6 lg:px-8 lg:pt-24">
+          <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
             <div>
-              <div class="flex justify-center text-teal-300 sm:justify-start">
+              <div className="flex justify-center text-teal-300 sm:justify-start">
                 <img src={logo} alt="" />
               </div>
 
-              <p class=" font-Inter max-w-md mx-auto mt-4 leading-relaxed text-center text-gray-400 sm:max-w-xs sm:mx-0 sm:text-left">
+              <p className=" font-Inter max-w-md mx-auto mt-4 leading-relaxed text-center text-gray-400 sm:max-w-xs sm:mx-0 sm:text-left">
             Visa Fast is a Travel Agency Company. Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
               </p>
 
-              <ul class="flex justify-center gap-6 mt-8 md:gap-8 sm:justify-start">
+              <ul className="flex justify-center gap-6 mt-8 md:gap-8 sm:justify-start">
                 <li>
                   <a
                     href="/"
                     rel="noopener noreferrer"
                     target="_blank"
-                    class="text-blue-500 text-xl transition hover:text-orange-500 duration-300"
+                    className="text-blue-500 text-xl transition hover:text-orange-500 duration-300"
                   >
-                    <span class="sr-only">Facebook</span>
+                    <span className="sr-only">Facebook</span>
                     <FaFacebook />
                   </a>
                 </li>
@@ -40,9 +40,9 @@ const Footer = () => {
                     href="/"
                     rel="noopener noreferrer"
                     target="_blank"
-                    class="text-red-600 text-2xl transition duration-300 hover:text-orange-500"
+                    className="text-red-600 text-2xl transition duration-300 hover:text-orange-500"
                   >
-                    <span class="sr-only">Instagram</span>
+                    <span className="sr-only">Instagram</span>
                     <FaYoutube />
                   </a>
                 </li>
@@ -52,9 +52,9 @@ const Footer = () => {
                     href="/"
                     rel="noopener noreferrer"
                     target="_blank"
-                    class="text-white text-xl transition duration-300 hover:text-orange-500"
+                    className="text-white text-xl transition duration-300 hover:text-orange-500"
                   >
-                    <span class="sr-only">Twitter</span>
+                    <span className="sr-only">Twitter</span>
                     <FaXTwitter />
                   </a>
                 </li>
@@ -64,9 +64,9 @@ const Footer = () => {
                     href="/"
                     rel="noopener noreferrer"
                     target="_blank"
-                    class="text-teal-500 text-xl transition duration-300 hover:text-orange-500"
+                    className="text-teal-500 text-xl transition duration-300 hover:text-orange-500"
                   >
-                    <span class="sr-only">GitHub</span>
+                    <span className="sr-only">GitHub</span>
                     <FaLinkedin />
                   </a>
                 </li>
@@ -76,11 +76,11 @@ const Footer = () => {
                     href="/"
                     rel="noopener noreferrer"
                     target="_blank"
-                    class="text-teal-500 transition hover:text-teal-500/75"
+                    className="text-teal-500 transition hover:text-teal-500/75"
                   >
-                    <span class="sr-only">Dribbble</span>
+                    <span className="sr-only">Dribbble</span>
                     <svg
-                      class="w-6 h-6"
+                      className="w-6 h-6"
                       fill="currentColor"
                       viewBox="0 0 24 24"
                       aria-hidden="true"
@@ -96,15 +96,15 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div class="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2 md:grid-cols-4">
-              <div class="text-center sm:text-left">
-                <p class="text-lg font-medium text-white">About Us</p>
+            <div className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2 md:grid-cols-4">
+              <div className="text-center sm:text-left">
+                <p className="text-lg font-medium text-white">About Us</p>
 
-                <nav class="mt-8">
-                  <ul class="space-y-4 text-sm">
+                <nav className="mt-8">
+                  <ul className="space-y-4 text-sm">
                     <li>
                       <a
-                        class="text-white transition hover:text-white/75"
+                        className="text-white transition hover:text-white/75"
                         href="/"
                       >
                         Company History
@@ -113,7 +113,7 @@ const Footer = () => {
 
                     <li>
                       <a
-                        class="text-white transition hover:text-white/75"
+                        className="text-white transition hover:text-white/75"
                         href="/"
                       >
                         Meet the Team
@@ -122,7 +122,7 @@ const Footer = () => {
 
                     <li>
                       <a
-                        class="text-white transition hover:text-white/75"
+                        className="text-white transition hover:text-white/75"
                         href="/"
                       >
                         Employee Handbook
@@ -131,7 +131,7 @@ const Footer = () => {
 
                     <li>
                       <a
-                        class="text-white transition hover:text-white/75"
+                        className="text-white transition hover:text-white/75"
                         href="/"
                       >
                         Careers
@@ -141,14 +141,14 @@ const Footer = () => {
                 </nav>
               </div>
 
-              <div class="text-center sm:text-left">
-                <p class="text-lg font-medium text-white">Our Services</p>
+              <div className="text-center sm:text-left">
+                <p className="text-lg font-medium text-white">Our Services</p>
 
-                <nav class="mt-8">
-                  <ul class="space-y-4 text-sm">
+                <nav className="mt-8">
+                  <ul className="space-y-4 text-sm">
                     <li>
                       <a
-                        class="text-white transition hover:text-white/75"
+                        className="text-white transition hover:text-white/75"
                         href="/"
                       >
                         Visa Immigration 
@@ -157,7 +157,7 @@ const Footer = () => {
 
                     <li>
                       <a
-                        class="text-white transition hover:text-white/75"
+                        className="text-white transition hover:text-white/75"
                         href="/"
                       >
                         Popular Destination
@@ -166,7 +166,7 @@ const Footer = () => {
 
                     <li>
                       <a
-                        class="text-white transition hover:text-white/75"
+                        className="text-white transition hover:text-white/75"
                         href="/"
                       >
                         Visa Types
@@ -175,7 +175,7 @@ const Footer = () => {
 
                     <li>
                       <a
-                        class="text-white transition hover:text-white/75"
+                        className="text-white transition hover:text-white/75"
                         href="/"
                       >
                         Visa Consultant
@@ -185,14 +185,14 @@ const Footer = () => {
                 </nav>
               </div>
 
-              <div class="text-center sm:text-left">
-                <p class="text-lg font-medium text-white">Helpful Links</p>
+              <div className="text-center sm:text-left">
+                <p className="text-lg font-medium text-white">Helpful Links</p>
 
-                <nav class="mt-8">
-                  <ul class="space-y-4 text-sm">
+                <nav className="mt-8">
+                  <ul className="space-y-4 text-sm">
                     <li>
                       <a
-                        class="text-white transition hover:text-white/75"
+                        className="text-white transition hover:text-white/75"
                         href="/"
                       >
                         FAQs
@@ -201,7 +201,7 @@ const Footer = () => {
 
                     <li>
                       <a
-                        class="text-white transition hover:text-white/75"
+                        className="text-white transition hover:text-white/75"
                         href="/"
                       >
                         Support
@@ -210,16 +210,16 @@ const Footer = () => {
 
                     <li>
                       <a
-                        class="flex group justify-center sm:justify-start gap-1.5"
+                        className="flex group justify-center sm:justify-start gap-1.5"
                         href="https://wa.me/+8801737564236" target="_blank"
                       >
-                        <span class="text-white transition group-hover:text-white/75">
+                        <span className="text-white transition group-hover:text-white/75">
                           Live Chat
                         </span>
 
-                        <span class="relative flex w-2 h-2 -mr-2">
-                          <span class="absolute inline-flex w-full h-full bg-orange-400 rounded-full opacity-75 animate-ping"></span>
-                          <span class="relative inline-flex w-2 h-2 bg-orange-500 rounded-full"></span>
+                        <span className="relative flex w-2 h-2 -mr-2">
+                          <span className="absolute inline-flex w-full h-full bg-orange-400 rounded-full opacity-75 animate-ping"></span>
+                          <span className="relative inline-flex w-2 h-2 bg-orange-500 rounded-full"></span>
                         </span>
                       </a>
                     </li>
@@ -227,18 +227,18 @@ const Footer = () => {
                 </nav>
               </div>
 
-              <div class="text-center sm:text-left">
-                <p class="text-lg font-medium text-white">Contact Us</p>
+              <div className="text-center sm:text-left">
+                <p className="text-lg font-medium text-white">Contact Us</p>
 
-                <ul class="mt-8 space-y-4 text-sm font-Inter">
+                <ul className="mt-8 space-y-4 text-sm font-Inter">
                   <li>
                     <a
-                      class="flex items-center justify-center sm:justify-start gap-1.5 group"
+                      className="flex items-center justify-center sm:justify-start gap-1.5 group"
                       href="/"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="w-5 h-5 text-white shrink-0"
+                        className="w-5 h-5 text-white shrink-0"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -251,7 +251,7 @@ const Footer = () => {
                         />
                       </svg>
 
-                      <span class="text-white transition group-hover:text-white/75">
+                      <span className="text-white transition group-hover:text-white/75">
                         visafastusa@gmail.com
                       </span>
                     </a>
@@ -259,12 +259,12 @@ const Footer = () => {
 
                   <li>
                     <a
-                      class="flex items-center justify-center sm:justify-start gap-1.5 group"
+                      className="flex items-center justify-center sm:justify-start gap-1.5 group"
                       href="/"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="w-5 h-5 text-white shrink-0"
+                        className="w-5 h-5 text-white shrink-0"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -277,16 +277,16 @@ const Footer = () => {
                         />
                       </svg>
 
-                      <span class="text-white transition group-hover:text-white/75">
+                      <span className="text-white transition group-hover:text-white/75">
                         +88017 3756 4236
                       </span>
                     </a>
                   </li>
 
-                  <li class="flex items-start justify-center gap-1.5 sm:justify-start">
+                  <li className="flex items-start justify-center gap-1.5 sm:justify-start">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="w-5 h-5 text-white shrink-0"
+                      className="w-5 h-5 text-white shrink-0"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -304,7 +304,7 @@ const Footer = () => {
                       />
                     </svg>
 
-                    <address class="-mt-0.5 not-italic text-white">
+                    <address className="-mt-0.5 not-italic text-white">
                       44/F/8A West Panthapath, Dhaka-1215
                     </address>
                   </li>
@@ -313,13 +313,13 @@ const Footer = () => {
             </div>
           </div>
 
-          <div class="pt-6 mt-12 border-t border-gray-800">
-            <div class="text-center sm:flex sm:justify-between sm:text-left">
-              <p class="text-sm text-gray-400">
-                <span class="block sm:inline">All rights reserved.</span>
+          <div className="pt-6 mt-12 border-t border-gray-800">
+            <div className="text-center sm:flex sm:justify-between sm:text-left">
+              <p className="text-sm text-gray-400">
+                <span className="block sm:inline">All rights reserved.</span>
 
                 <a
-                  class="inline-block text-teal-500 underline transition hover:text-teal-500/75"
+                  className="inline-block text-teal-500 underline transition hover:text-teal-500/75"
                   href="/"
                 >
                   Terms & Conditions
@@ -328,14 +328,14 @@ const Footer = () => {
                 <span>&middot;</span>
 
                 <a
-                  class="inline-block text-teal-500 underline transition hover:text-teal-500/75"
+                  className="inline-block text-teal-500 underline transition hover:text-teal-500/75"
                   href="/"
                 >
                   Privacy Policy
                 </a>
               </p>
 
-              <p class="mt-4 text-sm text-gray-500 sm:order-first sm:mt-0">
+              <p className="mt-4 text-sm text-gray-500 sm:order-first sm:mt-0">
                 &copy; 2024 Visa Fast
               </p>
             </div>

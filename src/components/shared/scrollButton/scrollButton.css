@@ -1,0 +1,45 @@
+.scroll-to-top {
+    position: fixed;
+    right: 0px;
+    bottom: 100px;
+    transform: rotate(90deg);
+    z-index: 99;
+}
+.scroll-to-top .scroll-top-inner {
+    display: flex;
+    align-items: center;
+    transition: all cubic-bezier(.4,0,.2,1) .4s;
+}
+.scroll-to-top .scroll-bar {
+    width: 50px;
+    height: 2px;
+    margin-right: 10px;
+    position: relative;
+}
+.scroll-to-top .scroll-bar:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #f4244f;
+    opacity: .5;
+}
+.scroll-to-top .scroll-bar .bar-inner {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    background-color: currentColor;
+}
+.scroll-to-top .scroll-bar-text {
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #FF6B00;
+    transition: all 500ms ease;
+}
+.scroll-to-top .scroll-bar-text:hover {
+    transform: scale(1.1);
+}

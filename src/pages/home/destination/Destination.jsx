@@ -62,7 +62,7 @@ const Destination = () => {
                 <img src={usa} alt="" />
                 </div>
                 <div className="des-title">
-                    <h4 className="font-Urbanist font-bold text-4xl"><Link>United State</Link></h4>
+                    <h4 className="font-Urbanist font-bold text-4xl"><Link to="/destination">United State</Link></h4>
                     <p className="font-Inter font-semibold">All Within Your Reach</p>
                 </div>
               </div>
@@ -73,7 +73,7 @@ const Destination = () => {
                 <img src={uk} alt="" />
                 </div>
                 <div className="des-title">
-                    <h4 className="font-Urbanist font-bold text-4xl"><Link>United Kingdom</Link></h4>
+                    <h4 className="font-Urbanist font-bold text-4xl"><Link to="/destination">United Kingdom</Link></h4>
                     <p className="font-Inter font-semibold">See Things Differently</p>
                 </div>
               </div>
@@ -84,7 +84,7 @@ const Destination = () => {
                 <img src={canada} alt="" />
                 </div>
                 <div className="des-title">
-                    <h4 className="font-Urbanist font-bold text-4xl"><Link>Canada</Link></h4>
+                    <h4 className="font-Urbanist font-bold text-4xl"><Link to="/destination">Canada</Link></h4>
                     <p className="font-Inter font-semibold">Dreams do come true</p>
                 </div>
               </div>
@@ -95,7 +95,7 @@ const Destination = () => {
                 <img src={australia} alt="" />
                 </div>
                 <div className="des-title">
-                    <h4 className="font-Urbanist font-bold text-4xl"><Link>Australia</Link></h4>
+                    <h4 className="font-Urbanist font-bold text-4xl"><Link to="/destination">Australia</Link></h4>
                     <p className="font-Inter font-semibold">Go around the world affordably</p>
                 </div>
               </div>
@@ -106,7 +106,7 @@ const Destination = () => {
                 <img src={italy} alt="" />
                 </div>
                 <div className="des-title">
-                    <h4 className="font-Urbanist font-bold text-4xl"><Link>Italy</Link></h4>
+                    <h4 className="font-Urbanist font-bold text-4xl"><Link to="/destination">Italy</Link></h4>
                     <p className="font-Inter font-semibold">La Dolce Vita</p>
                 </div>
               </div>
@@ -117,7 +117,7 @@ const Destination = () => {
                 <img src={malta} alt="" />
                 </div>
                 <div className="des-title">
-                    <h4 className="font-Urbanist font-bold text-4xl"><Link>Malta</Link></h4>
+                    <h4 className="font-Urbanist font-bold text-4xl"><Link to="/destination">Malta</Link></h4>
                     <p className="font-Inter font-semibold">The Land for All Seasons</p>
                 </div>
               </div>
