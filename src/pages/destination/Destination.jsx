@@ -35,7 +35,7 @@ const Destination = () => {
       <Container>
         <div className="mt-20 mb-44 lg:mb-40">
           <Title subtitle="Most Popular" title="TRAVEL COUNTRIES" />
-          <div className="mt-20">
+          <div className="mt-28">
               <div className="flex flex-col lg:flex-row gap-10">
                 <div className="w-full lg:w-5/6">
                   <div className="country-info">

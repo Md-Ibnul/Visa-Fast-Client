@@ -1,0 +1,62 @@
+.packages-bg{
+    background-image: url(../../assets/images/packages-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 40rem;
+}
+.packages-bg::before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #101010b0;
+}
+.packages-bg::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 100%;
+    background: url(../../assets/images/banner-pattern.png) bottom center repeat-x;
+    height: 39px;
+    z-index: 1;
+    background-repeat: repeat-x;
+    animation: 80s linear 0s infinite normal none running bg-slide;
+}
+
+@keyframes bg-slide{
+    0% {
+        background-position: 0 0;
+    }
+    
+    100% {
+        background-position: 3000px 0;
+    }
+}
+
+.packages-bg h4{
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 1.25rem;
+    font-size: 5rem;
+}
+.package-image{
+    width: full;
+    height: full;
+}
+.package-image img{
+    width: full;
+    height: full;
+}
+
+@media only screen and (max-width: 600px) {
+    .packages-bg h4{
+        letter-spacing: 0.5rem;
+        font-size: 3rem;
+    }
+}

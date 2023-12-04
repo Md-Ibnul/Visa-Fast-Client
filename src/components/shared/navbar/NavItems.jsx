@@ -21,10 +21,10 @@ const NavItems = () => {
     let socialIconStyles4 = { color: "#ff0000", fontSize: "1.2em" };
     const socialIcon = (
       <>
-      <li><Link><FaFacebookF style={socialIconStyles1} /></Link></li>
+      <li><Link to="https://www.facebook.com/visafast24" target='_blank'><FaFacebookF style={socialIconStyles1} /></Link></li>
       <li><Link><RiTwitterXLine style={socialIconStyles2} /></Link></li>
       <li><Link><FaLinkedinIn style={socialIconStyles3} /></Link></li>
-      <li><Link><FaYoutube style={socialIconStyles4} /></Link></li>
+      <li><Link to="https://www.youtube.com/@visafast24" target='_blank'><FaYoutube style={socialIconStyles4} /></Link></li>
       </>
     )
     let circleClasses = "inline-block p-4 rounded-full w-15 mx-auto";

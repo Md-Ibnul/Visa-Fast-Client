@@ -11,7 +11,7 @@ const ParallaxImage = () => {
   let [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="relative">
+    <div className="relative mt-20">
       <div className="absolute z-30">
       <input type="checkbox" id="my_modal_7" className="modal-toggle" />
 <div className="modal sm:modal-middle" role="dialog">

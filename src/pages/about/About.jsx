@@ -6,7 +6,8 @@ import world from "../../assets/images/f-icon-1.png";
 import options from "../../assets/images/directions.png";
 import expert from "../../assets/images/Experties.png";
 import noFee from "../../assets/images/no-fee2.png";
-import ticket from "../../assets/images/tickets.jpg";
+import owner from "../../assets/images/Owner.png";
+import approve from "../../assets/images/american-experience-ride-the-wave-1.gif";
 import Choose from "../home/choose/Choose";
 import Counter from "../home/counter/Counter";
 import Partners from "../home/partners/Partners";
@@ -109,7 +110,21 @@ const About = () => {
             </div>
           </div>
           <div className="flex-auto w-full">
-            <img src={ticket} alt="" />
+            <img width={400} src={approve} alt="" />
+          </div>
+        </div>
+        <div className="my-5 flex flex-col lg:flex-row gap-12 justify-evenly items-center">
+          <div>
+            <img src={owner} height={600} width={600} alt="" />
+          </div>
+          <div className="text-end">
+            <h4 className="font-Urbanist text-2xl lg:text-4xl font-extrabold text-gray-950 uppercase tracking-wider">LN Shamima Akter Shima</h4>
+            <p className="font-Inter font-light text-gray-600">Owner, Visa Fast</p>
+            <p className="font-Inter text-lg text-gray-900 font-semibold">
+            RCP at Lions Club # Dis-315A1 <br />
+            Director, Pirganj General Hospital <br />
+            Ticketing & Visa Director of Biman Holidays
+            </p>
           </div>
         </div>
       </Container>

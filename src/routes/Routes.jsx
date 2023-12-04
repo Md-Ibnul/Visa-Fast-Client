@@ -5,6 +5,7 @@ import Destination from "../pages/destination/Destination";
 import About from "../pages/about/About";
 import Contact from "../pages/contact/Contact";
 import ErrorPage from "../ErrorPage";
+import Packages from "../pages/packages/Packages";
 
 const router = createBrowserRouter([
     {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
             {
                 path: "/contact",
                 element: <Contact />
+            },
+            {
+                path: "/packages",
+                element: <Packages />
             },
         ]
     }
