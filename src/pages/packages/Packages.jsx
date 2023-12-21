@@ -25,7 +25,7 @@ const Packages = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 my-28">
             <div className="flex flex-col lg:flex-row items-center gap-5">
                 <div className="package-image">
-                    <img src={touristVisa} alt="" />
+                    <img src={touristVisa} alt="Images" />
                 </div>
                 <div>
                     <h4 className="font-Urbanist font-extrabold text-3xl">Tourist Visa</h4>
@@ -34,7 +34,7 @@ const Packages = () => {
             </div>
             <div className="flex flex-col lg:flex-row items-center gap-5">
                 <div className="package-image">
-                    <img src={familyVisa} alt="" />
+                    <img src={familyVisa} alt="Images" />
                 </div>
                 <div>
                     <h4 className="font-Urbanist font-extrabold text-3xl">Family Visa</h4>
@@ -43,7 +43,7 @@ const Packages = () => {
             </div>
             <div className="flex flex-col lg:flex-row items-center gap-5">
                 <div className="package-image">
-                    <img src={studentVisa} alt="" />
+                    <img src={studentVisa} alt="Images" />
                 </div>
                 <div>
                     <h4 className="font-Urbanist font-extrabold text-3xl">Student Visa</h4>
@@ -52,7 +52,7 @@ const Packages = () => {
             </div>
             <div className="flex flex-col lg:flex-row items-center gap-5">
                 <div className="package-image">
-                    <img src={visitorVisa} alt="" />
+                    <img src={visitorVisa} alt="Images" />
                 </div>
                 <div>
                     <h4 className="font-Urbanist font-extrabold text-3xl">Visitor Visa</h4>
@@ -61,7 +61,7 @@ const Packages = () => {
             </div>
             <div className="flex flex-col lg:flex-row items-center gap-5">
                 <div className="package-image">
-                    <img src={multipleVisa} alt="" />
+                    <img src={multipleVisa} alt="Images" />
                 </div>
                 <div>
                     <h4 className="font-Urbanist font-extrabold text-3xl">Multiple Visa</h4>
@@ -70,7 +70,7 @@ const Packages = () => {
             </div>
             <div className="flex flex-col lg:flex-row items-center gap-5">
                 <div className="package-image">
-                    <img src={immigrantVisa} alt="" />
+                    <img src={immigrantVisa} alt="Images" />
                 </div>
                 <div>
                     <h4 className="font-Urbanist font-extrabold text-3xl">Immigrant Visa</h4>

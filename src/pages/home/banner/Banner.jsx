@@ -16,15 +16,15 @@ const Banner = () => {
                 <div className='grid lg:grid-cols-12 mt-14 justify-center'>
                     <div className='col-span-6 lg:col-span-3'>
                     <div className='banner-image1'>
-                        <img src={bannerImage1} alt="" />
+                        <img src={bannerImage1} alt="Images" />
                     </div>
                     </div>
                     <div className='col-span-6 lg:col-span-5 mt-4'>
                         <div className='text-center relative'>
-                        <img src={design} alt="" className='absolute right-0 -top-4'/>
+                        <img src={design} alt="Images" className='absolute right-0 -top-4'/>
                         <p className='font-Fasthand text-2xl text-center text-orange-600'>Tour and travels</p>
-                            <h2 className='text-5xl font-Urbanist font-black leading-snug uppercase'>Let's travel the world with us</h2>
-                            <img src={bottomBar} alt="" className='absolute -bottom-4 lg:left-10 w-fit' />
+                            <h2 className='text-5xl font-Urbanist font-black leading-snug uppercase'>change your future with us</h2>
+                            <img src={bottomBar} alt="Images" className='absolute -bottom-4 lg:left-10 w-fit' />
                         </div>
                         <div className='mt-8 w-10/12 lg:ms-14 text-justify'>
                             <p className='font-Inter text-lg font-semibold text-gray-600'><span className='text-orange-600 font-bold'>Visa Fast</span> is a leading travel agency dedicated to providing exceptional travel experiences to our clients. With a passion for exploration and a commitment to customer satisfaction, we specialize in crafting personalized and unforgettable journeys.</p>
@@ -37,7 +37,7 @@ const Banner = () => {
                     </div>
                     <div className='col-span-12 mx-auto lg:col-span-4'>
                     <div className='lg:-mt-10'>
-                        <img src={bannerImage2} alt="" />
+                        <img src={bannerImage2} alt="Images" />
                     </div>
                     </div>
                 </div>

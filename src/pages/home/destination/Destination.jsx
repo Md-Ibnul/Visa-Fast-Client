@@ -59,7 +59,7 @@ const Destination = () => {
             <SwiperSlide>
               <div className="des-content text-center">
                 <div className="des-img">
-                <img src={usa} alt="" />
+                <img src={usa} alt="Images" />
                 </div>
                 <div className="des-title">
                     <h4 className="font-Urbanist font-bold text-4xl"><Link to="/destination">United State</Link></h4>
@@ -70,7 +70,7 @@ const Destination = () => {
             <SwiperSlide>
               <div className="des-content text-center">
                 <div className="des-img">
-                <img src={uk} alt="" />
+                <img src={uk} alt="Images" />
                 </div>
                 <div className="des-title">
                     <h4 className="font-Urbanist font-bold text-4xl"><Link to="/destination">United Kingdom</Link></h4>
@@ -81,7 +81,7 @@ const Destination = () => {
             <SwiperSlide>
               <div className="des-content text-center">
                 <div className="des-img">
-                <img src={canada} alt="" />
+                <img src={canada} alt="Images" />
                 </div>
                 <div className="des-title">
                     <h4 className="font-Urbanist font-bold text-4xl"><Link to="/destination">Canada</Link></h4>
@@ -92,7 +92,7 @@ const Destination = () => {
             <SwiperSlide>
               <div className="des-content text-center">
                 <div className="des-img">
-                <img src={australia} alt="" />
+                <img src={australia} alt="Images" />
                 </div>
                 <div className="des-title">
                     <h4 className="font-Urbanist font-bold text-4xl"><Link to="/destination">Australia</Link></h4>
@@ -103,7 +103,7 @@ const Destination = () => {
             <SwiperSlide>
               <div className="des-content text-center">
                 <div className="des-img">
-                <img src={italy} alt="" />
+                <img src={italy} alt="Images" />
                 </div>
                 <div className="des-title">
                     <h4 className="font-Urbanist font-bold text-4xl"><Link to="/destination">Italy</Link></h4>
@@ -114,7 +114,7 @@ const Destination = () => {
             <SwiperSlide>
               <div className="des-content text-center">
                 <div className="des-img">
-                <img src={malta} alt="" />
+                <img src={malta} alt="Images" />
                 </div>
                 <div className="des-title">
                     <h4 className="font-Urbanist font-bold text-4xl"><Link to="/destination">Malta</Link></h4>

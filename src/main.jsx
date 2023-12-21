@@ -1,11 +1,16 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import './index.css'
-import { RouterProvider } from 'react-router-dom'
-import router from './routes/routes'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import { RouterProvider } from "react-router-dom";
+import router from "./routes/Routes";
+import { Toaster } from "react-hot-toast";
+import AuthProvider from "./providers/AuthProviders";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <RouterProvider router={router}/>
-  </React.StrictMode>,
-)
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <AuthProvider>
+    <React.StrictMode>
+      <Toaster position="top-right" reverseOrder={false} />
+      <RouterProvider router={router} />
+    </React.StrictMode>
+  </AuthProvider>
+);

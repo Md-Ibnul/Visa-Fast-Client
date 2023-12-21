@@ -4,15 +4,57 @@ import {BsFillTelephoneFill} from 'react-icons/bs'
 import {FaFacebookF, FaLinkedinIn, FaYoutube} from 'react-icons/fa'
 import {RiTwitterXLine} from 'react-icons/ri'
 import { Link, NavLink } from 'react-router-dom';
+import { useContext } from 'react';
+import { AuthContext } from '../../../providers/AuthProviders';
 
 const NavItems = () => {
+  const { user, logOut, role } = useContext(AuthContext);
+  
+  const handleLogOut = () => {
+    logOut()
+    .then(() => {})
+  }
+
+
     const navOptions = (
         <>
         <li className='relative'><NavLink to='/' className={({ isActive }) => (isActive ? "active" : "default")}>Home</NavLink></li>
       <li><NavLink to='/destination' className={({ isActive }) => (isActive ? "active" : "default")}>Destination</NavLink></li>
       <li><NavLink to='/about' className={({ isActive }) => (isActive ? "active" : "default")}>About</NavLink></li>
       <li><NavLink to='/packages' className={({ isActive }) => (isActive ? "active" : "default")}>Packages</NavLink></li>
+      <li><NavLink to='/blogs' className={({ isActive }) => (isActive ? "active" : "default")}>Blogs</NavLink></li>
       <li><NavLink to='/contact' className={({ isActive }) => (isActive ? "active" : "default")}>Contact</NavLink></li>
+      {
+            role && role === "Admin" ? 
+            <li> <NavLink
+              to="/dashboard/manageUsers"
+              className={({ isActive }) =>
+                isActive ? "text-red-600 border-b-2" : "default"
+              }
+            >
+              Dashboard
+            </NavLink>
+            </li> :  <li>
+              
+              </li>}
+      <li>
+            {
+              user ? 
+              <a onClick={handleLogOut}
+              className="cursor-pointer transition duration-200 hover:text-orange-600 hover:before:block before:absolute before:inset-6 relative  before:w-0 before:h-1 before:bottom-0 before:left-0 before:bg-orange-600 inline-block hover:before:w-5 hover:transition hover:before:duration-300"
+            >
+              Log Out
+            </a> :
+            <NavLink
+            to="/login"
+            className={({ isActive }) =>
+            (isActive ? "active" : "default")
+            }
+          >
+            Login
+          </NavLink>
+            }
+          </li>
         </>
     )
     let socialIconStyles1 = { color: "#1877f2", fontSize: "1.2em" };

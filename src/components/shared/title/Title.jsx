@@ -12,7 +12,7 @@ const Title = ({title, subtitle}) => {
                 {title}
               </h3>
               <div className="absolute left-1/3 -bottom-8 bottom">
-                <img src={bottom} width="100%" alt="" />
+                <img src={bottom} width="100%" alt="Images" />
               </div>
             </div>
     );

@@ -16,18 +16,18 @@ const About = () => {
         <div className="flex  gap-5 justify-center">
           <div className="relative lg:w-2/3 lg:ms-10">
             <div className="absolute aboutIcon1">
-              <img src={aboutIcon} alt="" />
+              <img src={aboutIcon} alt="Images" />
             </div>
             <div className="absolute aboutImage1">
-              <img width={400} height={500} src={ticketsImg} alt="" />
+              <img width={400} height={500} src={ticketsImg} alt="Images" />
             </div>
             <div className="absolute aboutImage2">
-              <img width={350} height={450} src={windowImg} alt="" />
+              <img width={350} height={450} src={windowImg} alt="Images" />
             </div>
           </div>
           <div className="lg:w-1/2 lg:mt-10 relative">
             <div className="absolute right-0 top-7 animate-pulse">
-              <img src={love} alt="" />
+              <img src={love} alt="Images" />
             </div>
             <p className="font-Fasthand text-orange-600 text-2xl">About Us</p>
             <div className="relative">
@@ -35,7 +35,7 @@ const About = () => {
                 Explore all tour of the world with us.
               </h4>
               <div className="absolute -bottom-7">
-                <img src={bottom} alt="" />
+                <img src={bottom} alt="Images" />
               </div>
             </div>
             <div className="mt-8">
@@ -50,7 +50,7 @@ const About = () => {
               <div className="mt-8">
                 <div className="flex about-right1 items-center gap-10">
                     <div className="about-right-icon1">
-                        <img width={130} height={130} src={world} alt="" />
+                        <img width={130} height={130} src={world} alt="Images" />
                     </div>
                     <div>
                         <h4 className="font-Urbanist font-bold text-lg ">International Tours</h4>
@@ -59,7 +59,7 @@ const About = () => {
                 </div>
                 <div className="flex about-right2 items-center gap-10 mt-8">
                     <div className="about-right-icon2">
-                        <img width={130} height={130} src={options} alt="" />
+                        <img width={130} height={130} src={options} alt="Images" />
                     </div>
                     <div>
                         <h4 className="font-Urbanist font-bold text-lg ">Multiple Options to Choose</h4>

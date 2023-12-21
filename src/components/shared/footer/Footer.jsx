@@ -15,7 +15,7 @@ const Footer = () => {
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
             <div>
               <div className="flex justify-center text-teal-300 sm:justify-start">
-                <img src={logo} alt="" />
+                <img src={logo} alt="Images" />
               </div>
 
               <p className=" font-Inter max-w-md mx-auto mt-4 leading-relaxed text-center text-gray-400 sm:max-w-xs sm:mx-0 sm:text-left">
@@ -25,7 +25,7 @@ const Footer = () => {
               <ul className="flex justify-center gap-6 mt-8 md:gap-8 sm:justify-start">
                 <li>
                   <a
-                    href="/"
+                    href="https://www.facebook.com/visafast24"
                     rel="noopener noreferrer"
                     target="_blank"
                     className="text-blue-500 text-xl transition hover:text-orange-500 duration-300"
@@ -37,12 +37,12 @@ const Footer = () => {
 
                 <li>
                   <a
-                    href="/"
+                    href="https://www.youtube.com/@visafast24"
                     rel="noopener noreferrer"
                     target="_blank"
                     className="text-red-600 text-2xl transition duration-300 hover:text-orange-500"
                   >
-                    <span className="sr-only">Instagram</span>
+                    <span className="sr-only">Youtube</span>
                     <FaYoutube />
                   </a>
                 </li>

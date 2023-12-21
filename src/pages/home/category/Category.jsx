@@ -10,10 +10,12 @@ import "swiper/css/navigation";
 
 import "./category.css";
 import Container from "../../../components/shared/container/container";
-import immigrant from "../../../assets/images/immigrant.png";
-import tourist from "../../../assets/images/travel-tourism.png";
-import student from "../../../assets/images/graduate.png";
-import visit from "../../../assets/images/traveler.png";
+import immigrant from "../../../assets/images/immigrant-visa.jpg";
+import tourist from "../../../assets/images/tourist-visa.jpg";
+import student from "../../../assets/images/student-visa.jpg";
+import visit from "../../../assets/images/visitor-visa.jpg";
+import family from "../../../assets/images/family-visa.jpg";
+import multiple from "../../../assets/images/multiple-visa.jpg";
 import { Link } from "react-router-dom";
 import Title from "../../../components/shared/title/Title";
 
@@ -55,8 +57,8 @@ const Category = () => {
               className="mySwiper"
             >
               <SwiperSlide>
-                <Link className="flex flex-col bg-white px-0 py-20 justify-center items-center cat-icon">
-                  <img width={70} height={70} src={immigrant} alt="" />
+                <Link to='/packages' className="flex flex-col bg-white px-0 py-8 justify-center items-center cat-icon">
+                  <img width={200} height={200} src={immigrant} alt="Images" />
                   <h4 className="mt-12 font-Urbanist font-bold text-xl text-gray-700">
                     Immigrant Visa
                   </h4>
@@ -64,8 +66,8 @@ const Category = () => {
               </SwiperSlide>
 
               <SwiperSlide>
-                <Link className="flex flex-col bg-white px-0 py-20 justify-center items-center cat-icon">
-                  <img width={70} height={70} src={tourist} alt="" />
+                <Link to='/packages' className="flex flex-col bg-white px-0 py-8 justify-center items-center cat-icon">
+                  <img width={200} height={200} src={tourist} alt="Images" />
                   <h4 className="mt-12 font-Urbanist font-bold text-xl text-gray-700">
                     Tourist Visa
                   </h4>
@@ -73,8 +75,8 @@ const Category = () => {
               </SwiperSlide>
 
               <SwiperSlide>
-                <Link className="flex flex-col bg-white px-0 py-20 justify-center items-center cat-icon">
-                  <img width={70} height={70} src={student} alt="" />
+                <Link to='/packages' className="flex flex-col bg-white px-0 py-8 justify-center items-center cat-icon">
+                  <img width={200} height={200} src={student} alt="Images" />
                   <h4 className="mt-12 font-Urbanist font-bold text-xl text-gray-700">
                     Student Visa
                   </h4>
@@ -82,8 +84,8 @@ const Category = () => {
               </SwiperSlide>
 
               <SwiperSlide>
-                <Link className="flex flex-col bg-white px-0 py-20 justify-center items-center cat-icon">
-                  <img width={120} height={120} src={visit} alt="" />
+                <Link to='/packages' className="flex flex-col bg-white px-0 py-8 justify-center items-center cat-icon">
+                  <img width={200} height={200} src={visit} alt="Images" />
                   <h4 className="mt-12 font-Urbanist font-bold text-xl text-gray-700">
                     Visitor Visa
                   </h4>
@@ -91,10 +93,28 @@ const Category = () => {
               </SwiperSlide>
 
               <SwiperSlide>
-                <Link className="flex flex-col bg-white px-0 py-20 justify-center items-center cat-icon">
-                  <img width={70} height={70} src={tourist} alt="" />
+                <Link to='/packages' className="flex flex-col bg-white px-0 py-8 justify-center items-center cat-icon">
+                  <img width={200} height={200} src={tourist} alt="Images" />
                   <h4 className="mt-12 font-Urbanist font-bold text-xl text-gray-700">
                     Tourist Visa
+                  </h4>
+                </Link>
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <Link to='/packages' className="flex flex-col bg-white px-0 py-8 justify-center items-center cat-icon">
+                  <img width={200} height={200} src={family} alt="Images" />
+                  <h4 className="mt-12 font-Urbanist font-bold text-xl text-gray-700">
+                    Family Visa
+                  </h4>
+                </Link>
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <Link to='/packages' className="flex flex-col bg-white px-0 py-8 justify-center items-center cat-icon">
+                  <img width={200} height={200} src={multiple} alt="Images" />
+                  <h4 className="mt-12 font-Urbanist font-bold text-xl text-gray-700">
+                    Multiple Visa
                   </h4>
                 </Link>
               </SwiperSlide>

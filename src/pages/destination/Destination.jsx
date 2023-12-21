@@ -39,7 +39,7 @@ const Destination = () => {
               <div className="flex flex-col lg:flex-row gap-10">
                 <div className="w-full lg:w-5/6">
                   <div className="country-info">
-                    <img src={usaBg} alt="" />
+                    <img src={usaBg} alt="Images" />
                     <div className="country-details">
                       <h4 className="font-Urbanist font-extrabold text-6xl tracking-wider text-[#282769]">
                         AMERICA
@@ -84,10 +84,10 @@ const Destination = () => {
                 </div>
                 <div className="flex flex-row lg:flex-row gap-6 country-images">
                   <div className="country-image">
-                    <img src={america} alt="" />
+                    <img src={america} alt="Images" />
                   </div>
                   <div className="country-image">
-                    <img src={america2} alt="" />
+                    <img src={america2} alt="Images" />
                   </div>
                 </div>
               </div>
@@ -95,15 +95,15 @@ const Destination = () => {
               <div className="flex flex-col-reverse lg:flex-row gap-5">
                 <div className="flex flex-row lg:flex-row gap-6 country-images">
                 <div className="country-image">
-                  <img src={canada} alt="" />
+                  <img src={canada} alt="Images" />
                 </div>
                 <div className="country-image">
-                  <img src={canada2} alt="" />
+                  <img src={canada2} alt="Images" />
                 </div>
                 </div>
                 <div className="w-full lg:w-5/6">
                   <div className="country-info">
-                    <img src={canadaBg} alt="" />
+                    <img src={canadaBg} alt="Images" />
                     <div className="country-details">
                       <h4 className="font-Urbanist font-extrabold text-6xl tracking-wider text-[#282769]">
                         CANADA
@@ -152,7 +152,7 @@ const Destination = () => {
             <div className="flex flex-col lg:flex-row gap-10">
                 <div className="w-full lg:w-5/6">
                   <div className="country-info">
-                    <img src={ukBg} alt="" />
+                    <img src={ukBg} alt="Images" />
                     <div className="country-details">
                       <h4 className="font-Urbanist font-extrabold text-6xl tracking-wider text-[#282769]">
                         United Kingdom
@@ -197,10 +197,10 @@ const Destination = () => {
                 </div>
                 <div className="flex flex-row lg:flex-row gap-6 country-images">
                   <div className="country-image">
-                    <img src={uk} alt="" />
+                    <img src={uk} alt="Images" />
                   </div>
                   <div className="country-image">
-                    <img src={uk2} alt="" />
+                    <img src={uk2} alt="Images" />
                   </div>
                 </div>
               </div>
@@ -209,15 +209,15 @@ const Destination = () => {
               <div className="flex flex-col-reverse lg:flex-row gap-5">
                 <div className="flex flex-row lg:flex-row gap-6 country-images">
                 <div className="country-image">
-                  <img src={australia2} alt="" />
+                  <img src={australia2} alt="Images" />
                 </div>
                 <div className="country-image">
-                  <img src={australia} alt="" />
+                  <img src={australia} alt="Images" />
                 </div>
                 </div>
                 <div className="w-full lg:w-5/6">
                   <div className="country-info">
-                    <img src={australiaBg} alt="" />
+                    <img src={australiaBg} alt="Images" />
                     <div className="country-details">
                       <h4 className="font-Urbanist font-extrabold text-6xl tracking-wider text-[#282769]">
                         Australia
@@ -266,7 +266,7 @@ const Destination = () => {
             <div className="flex flex-col lg:flex-row gap-10">
                 <div className="w-full lg:w-5/6">
                   <div className="country-info">
-                    <img src={italyBg} alt="" />
+                    <img src={italyBg} alt="Images" />
                     <div className="country-details">
                       <h4 className="font-Urbanist font-extrabold text-6xl tracking-wider text-[#282769]">
                         Italy
@@ -311,10 +311,10 @@ const Destination = () => {
                 </div>
                 <div className="flex flex-row lg:flex-row gap-6 country-images">
                   <div className="country-image">
-                    <img src={italy} alt="" />
+                    <img src={italy} alt="Images" />
                   </div>
                   <div className="country-image">
-                    <img src={italy2} alt="" />
+                    <img src={italy2} alt="Images" />
                   </div>
                 </div>
               </div>
@@ -323,15 +323,15 @@ const Destination = () => {
               <div className="flex flex-col-reverse lg:flex-row gap-5">
                 <div className="flex flex-row lg:flex-row gap-6 country-images">
                 <div className="country-image">
-                  <img src={malta2} alt="" />
+                  <img src={malta2} alt="Images" />
                 </div>
                 <div className="country-image">
-                  <img src={malta} alt="" />
+                  <img src={malta} alt="Images" />
                 </div>
                 </div>
                 <div className=" w-5/6">
                   <div className="country-info">
-                    <img src={maltaBg} alt="" />
+                    <img src={maltaBg} alt="Images" />
                     <div className="country-details">
                       <h4 className="font-Urbanist font-extrabold text-6xl tracking-wider text-[#282769]">
                         Malta

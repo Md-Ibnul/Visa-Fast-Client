@@ -8,7 +8,7 @@ const Counter = () => {
   const [counterOn, setCounterOn] = useState(false);
   return (
     <div className="">
-        <img src={topShape} alt="" />
+        <img src={topShape} alt="Images" />
       <div className="py-10 bg-orange-600">
         <Container>
           <ScrollTrigger
